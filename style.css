@@ -1,0 +1,96 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    height: 450px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 50px;
+}
+
+.container .prod-img{
+    width: 100%;
+    height: auto;
+}
+
+.container .prod-img img{
+    height: auto;
+    max-width: 300px;
+    display: block;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.container .prod-cont{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container .prod-cont h4{
+    font-size: 16px;
+    font-family: fraunces;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.container .prod-cont h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: fraunces;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: hsl(212, 21%, 14%);
+}
+
+.container .prod-cont p{
+    font-family: montserrat;
+    color:hsl(228, 12%, 48%) ;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    padding-bottom: px;
+}
+
+.container .prod-cont .mon{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container .prod-cont h3{
+    font-size: 30px;
+    font-family: fraunces;
+    color: hsl(158, 36%, 37%);
+}
+
+.container .prod-cont span{
+    margin-left: 10px;
+    font-family: fraunces;
+    color:hsl(212, 21%, 14%) ;
+    font-size: 15px;
+}
+
+.container .prod-cont button{
+    padding: 7px 35px;
+    background-color: hsl(158, 87%, 12%);
+    letter-spacing: 3px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.container .prod-cont button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.container .prod-cont button a span i {
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
